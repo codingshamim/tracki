@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+*{
+  font-family: 'Roboto Mono', monospace;
+}
+:root{
+  --primary:crimson;
+}
+.logo{
+  font-family: 'Borel', cursive;
+  font-size: 25px;
+  font-weight: bold;
+  color: #000 ;
+}
+.logo span{
+  color: var(--primary);
+}
+
+.mycontainer{
+  max-width: 1140px;
+  margin: 0 auto;
+}
